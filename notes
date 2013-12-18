@@ -1,0 +1,6 @@
+sudo apt-get install git
+git config --global user.name "nanmai-works"
+git config --global user.email "nanmaiworks@gmail.com"
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=360000'
+git clone https://github.com/nanmai/vm.git
